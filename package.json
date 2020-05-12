@@ -1,0 +1,25 @@
+{
+  "name": "complexapp",
+  "version": "1.0.0",
+  "description": "A post application where users can follow each other and make posts",
+  "main": "app.js",
+  "scripts": {
+    "watch": "nodemon db",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "flash": "^1.1.0",
+    "mongodb": "^3.5.7",
+    "nodemon": "^2.0.3",
+    "validator": "^13.0.0"
+  }
+}
